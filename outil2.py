@@ -100,7 +100,7 @@ for destination in destinations:
         alertes = open(fichier2,"a", encoding="utf-8")
         outil2voyage = csv.writer(alertes)
         outil2voyage.writerow(nouvelAvertissement) 
-        # Ouverture du fichier csv contenant toutes les données actualisées (seulement la première ligne... Erreur qui persiste après maints essais). 
+        # Ouverture du fichier .csv contenant toutes les données actualisées. 
 
 
         # Fin de la création de l'outil (partie 2) en guise de projet final. 
