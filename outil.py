@@ -21,7 +21,7 @@ entetes = {
 #print(entetes) Petit test print pour confirmer que l'entêtes s'affiche correctement [réussi].
 
 n = 0
-#Création d'un compteur
+# Création d'un compteur
 
 site = requests.get(url, headers=entetes)
 print(site.status_code)
@@ -106,6 +106,6 @@ for destination in destinations:
 # print(avertissements[3].text.strip())
 # print(avertissements[0].text.strip())
 # print(avertissements[1].text.strip())
-# ERREUR : Imprime toutes les destinations mais avec le nom de pays Acores (le premier).
+# ERREUR : Imprime toutes les destinations, mais avec le nom de pays Acores (le premier).
 
 
